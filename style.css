@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+* {
+    font-family: 'Play', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+/* Seccion home */
+.home {
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3));
+    background-image: url("img/background-cv.jpg");
+    background-size: cover;
+    background-position: center center;
+    color: white;
+}
+.home .content-home {
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    padding: 0 10px;
+}
+.home .content-home header {
+    padding: 30px;
+    margin-left: -60px;
+}
+/* Menu lateral */
+.home .content-home header nav {
+    position: fixed;
+    margin-left: 60px;
+    background-color: #555455;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    z-index: 99;
+    display: none;
+}
+.home .content-home header nav a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+/*-------------------------------------------*/
+.home .content-home header .nav-bar {
+    position: fixed;
+    background-color: #562347;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    line-height: 50px;
+    cursor: pointer;
+    transition: .3s;
+}
+.home .content-home header .nav-bar:hover {
+    box-shadow: 0 0 35px white;
+}
+.home .content-home .personal-info {
+    padding-bottom: 130px;
+}
+.home .content-home .personal-info h1 {
+    font-size: 3rem;
+    letter-spacing: 3px;
+    margin-left: 6em;
+}
+.home .content-home .personal-info h2 {
+    font-weight: normal;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-left: 10em;
+}
+.home .content-home .photo-cv {
+    position: relative;
+}
+.home .content-home .photo-cv img{
+    max-width: 150px;
+    border-radius: 50%;
+    border: 5px solid green;
+    position: absolute;
+    left: 30%;
+    top: -280px;
+    transform: translateX(-80%);
+}
+/* Estilos generales */
+.title-section {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+}
+/* Seccion about me */
+.about-me {
+    background-color: whitesmoke;
+    padding: 140px 0 100px 0;
+    text-align: center;
+}
+.about-me .content-about {
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+.about-me .content-about h3 {
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.about-me .content-about .special {
+    color: #236578;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.about-me .content-about p {
+    max-width: 700px;
+    margin: auto;
+    color: #666;
+}
+.about-me .content-about .row {
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+.about-me .content-about .row .col {
+    width: 30%;
+}
+.about-me .content-about .row .col i {
+    color: #236578;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border: 2px solid green;
+    line-height: 40px;
+    border-radius: 50%;
+}
+.about-me .content-aboutn .row .col span {
+    display: block;
+    font-weight: bold;
+    margin: 8px 0;
+}
+.about-me .content-aboutn .row .col .flag {
+    position: relative;
+    align-items: center;
+}
+.about-me .content-about .row .col .flag img {
+    max-width: 100px;
+    position: absolute;
+    margin-left: -40px;
+}
+/* Seccion Skills */
+.skills {
+    padding: 80px 0 100px 0;
+    text-align: center;
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3));
+    background-image: url("img/background-skills.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    color: white;
+}
+.skills .content-skills {
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+.skills .content-skills h3{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.skills .content-skills .row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.skills .content-skills .row .col {
+    width: 47%;
+    text-align: left;
+}
+.skills .content-skills .row .col .cont-bar {
+    display: flex;
+    align-items: center;
+}
+.skills .content-skills .bar {
+    display: flex;
+    border: 1px solid green;
+    padding: 2px;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+.skills .content-skills .bar .e {
+    background-color: black;
+    width: 20px;
+    height: 30px;
+    margin-right: 2px;
+}
+/* Seccion Background */
+.resume {
+    background-color: rgb(138, 194, 175);
+    padding: 140px 0 100px 0;
+    text-align: center;
+}
+.resume .content-resume {
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+.resume .content-resume h3 {
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.resume .content-resume .info {
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.resume .content-resume .info .col {
+    width: 45%;
+}
+.resume .content-resume .info .col .title {
+    display: inline-block;
+    color: #236578;
+    font-weight: bold;
+    border: 2px solid green;
+    padding: 10px;
+    margin-left: 10px;
+}
+.resume .content-resume .info .col table {
+    margin-top: 30px;
+    border-collapse: collapse;
+    margin-left: 20px;
+}
+.resume .content-resume .info .col table .data {
+    width: 40%;
+    border-bottom: 1px solid #5e4b0e;
+}
+.resume .content-resume .info .col table h4 {
+    margin-top: 10px;
+}
+.resume .content-resume .info .col table h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.resume .content-resume .info .col table p {
+    font-size: 14px;
+}
+.resume .content-resume .info .col .row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.resume .content-resume .info .col .row .col {
+    width: 50%;
+    text-align: left;
+    margin-top: 10px;
+}
+.resume .content-resume .info .col .row .col .certificate img {
+    position: relative;
+    max-width: 150px;
+    border: 1px solid red;
+    transform: translateX(-80%);
+    left: 120px;
+}
+.resume .content-resume .info .col table .average {
+    display: block;
+    color: #236578;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.resume .content-resume .info .col table .description {
+    border-left: 1px solid #5e4b0e;
+    padding-left: 15px;
+}
+/* Seccion contact me*/
+.contact {
+    background-color: #202020;
+    padding: 140px 0 100px 0;
+    color: white;
+    text-align: center;
+}
+.contact .content-contact {
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+.contact .content-contact h3 {
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.contact .content-contact .row {
+    display: flex;
+    justify-content: space-around;
+}
+.contact .content-contact .row .col {
+    margin-top: 50px;
+}
+.contact .content-contact .row .col h2 {
+    color: #236578;
+}
+.sign {
+    background-color: #202020;
+    color: whitesmoke;
+    font-size: 14px;
+    padding: auto;
+    text-align: right;
+}
+/* Seccion responsive */
+@media screen and (max-width: 800px) {
+    .skills .content-skills .row {
+        display: block;
+    }
+    .skills .content-skills .row .col {
+        width: 100%;
+        text-align: center;
+    }
+    .skills .content-skills .row .col .cont-bar {
+        justify-content: center;
+    }
+    .about-me .content-about .row {
+        display: block;
+    }
+    .about-me .content-about .row .col {
+        width: 80%;
+        margin: auto;
+        margin-top: 20x;
+    }
+    .resume .content-resume .info {
+        display: block;
+    }
+    .resume .content-resume .info .col {
+        width: 90%;
+        margin: auto;
+    }
+    .resume .content-resume .info .col .title {
+        display: block;
+        text-align: center;
+    }
+    .resume .content-resume .info .col table {
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+    .contact .content-contact .row {
+        display: block;
+    }
+    .sign {
+        display: block;
+        text-align: center;
+    }
+}

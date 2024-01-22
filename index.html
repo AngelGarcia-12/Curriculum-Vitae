@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Hoja de estilos CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" 
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css"/>
+    <title>Curriculum Vitae</title>
+</head>
+<body>
+    <!-- Barra de navegacion -->
+    <section class="home" id="home">
+        <div class="content-home">
+            <header>
+                <div class="nav-bar" onclick="mostrarOcultarMenu()">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <!-- Navbar -->
+                <nav id="nav" class="nav">
+                    <a href="#home">Home</a>
+                    <a href="#about-me">About me</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#resume">Background</a>
+                    <a href="#contact">Contact me</a>
+                </nav>
+            </header>
+            <!-- Home page -->
+            <div class="personal-info">
+                <h1>I am Angel García Pérez</h1>
+                <h2>Software developer</h2>
+            </div>
+            <!--Fotografia para el CV-->
+            <div class="photo-cv">
+                <img src="img/foto.jpg" alt="Photograph about me"/>
+            </div>
+        </div>
+    </section>
+
+    <!-- About me page -->
+    <section class="about-me" id="about-me">
+        <div class="content-about">
+            <h2 class="title-section">About me</h2>
+            <h3>Personal Details</h3>
+
+            <p class="special">I'm an Engineer Computer.</p>
+            <p>
+                I am in my nineth semester looking for a job opportunity as a software developer, 
+                I consider myself a perseverant person, I like to learn new things, I know how to work in a team, 
+                I have worked as an internship as a business analyst because of that I know a little about finance, 
+                however, I would like to work in one of the areas that attracts me a lot which is the frontend.
+            </p>
+
+            <div class="row">
+                <div class="col">
+                    <i class="fa-solid fa-user"></i>
+                    <span class="title-detail">Profile</span>
+                    <p><!-- Datos de contacto edad -->
+                        <h4>Age: 23 years old</h4>
+                        <h4>Nacionality: Mexican</h4>
+                        <!--Datos sobre referencias -->
+                        <h4>References <h5>NA</h5></h4>
+                    </p>
+                </div>
+                <div class="col">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span class="title-detail">Location</span>
+                    <p style="color: black;">
+                        Mexico, Guadalajara, Jal.
+                        <div class="flag">
+                            <img src="img/mexico.png" alt="Mexican flag">
+                        </div>
+                    </p>
+                </div>
+                <div class="col">
+                    <i class="fa-solid fa-flag"></i>
+                    <span class="title-detail">Interestings</span>
+                    <p style="color: black;">
+                        One of my biggest Interestings in the area of technology is the cybersecurity area
+                        as well as the frontend is one of my interestings
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Skills page-->
+    <section class="skills" id="skills">
+        <div class="content-skills">
+            <h2 class="title-skills">My Skills</h2>
+            <h3>Software that I know</h3>
+            <h4>Programming languages</h4>
+            <div class="row">
+                <div class="col">
+                    <span>Python</span>
+                    <div class="cont-bar">
+                        <div class="bar" id="python">
+                            <!-- Javascript porcentaje -->
+                            
+                        </div>
+                        <span>70%</span>
+                    </div>
+                </div>
+                <!--C/C++-->
+                <div class="col">
+                    <span>C/C++</span>
+                    <div class="cont-bar">
+                        <div class="bar" id="c-c++">
+                            <!-- Javascript porcentaje -->
+                            
+                        </div>
+                        <span>65%</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <!-- Java -->
+                <div class="col">
+                    <span>Java</span>
+                    <div class="cont-bar">
+                        <div class="bar" id="java">
+                            <!-- Javascript porcentaje -->
+                            
+                        </div>
+                        <span>60%</span>
+                    </div>
+                </div>
+                <!--Javascript-->
+                <div class="col">
+                    <span>JavaScript</span>
+                    <div class="cont-bar">
+                        <div class="bar" id="javascript">
+                            <!-- Javascript porcentaje -->
+                            
+                        </div>
+                        <span>50%</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row">
+                <!-- SQL -->
+                <div class="col">
+                    <span>SQL</span>
+                    <div class="cont-bar">
+                        <div class="bar" id="sql">
+                            <!-- Javascript porcentaje -->
+                            
+                        </div>
+                        <span>50%</span>
+                    </div>
+                </div>
+                <!--C#-->
+                <div class="col">
+                    <span>C#</span>
+                    <div class="cont-bar">
+                        <div class="bar" id="csharp">
+                            <!-- Javascript porcentaje -->
+                            
+                        </div>
+                        <span>35%</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <!-- HTML -->
+                <div class="col">
+                    <span>HTML</span>
+                    <div class="cont-bar">
+                        <div class="bar" id="html">
+                            <!-- Javascript porcentaje -->
+                            
+                        </div>
+                        <span>35%</span>
+                    </div>
+                </div>
+                <!-- ABAP -->
+                <div class="col">
+                    <span>ABAP</span>
+                    <div class="cont-bar">
+                        <div class="bar" id="abap">
+                            <!-- Javascript porcentaje -->
+                            
+                        </div>
+                        <span>20%</span>
+                    </div>
+                </div>
+            </div>
+
+            <h3 style="margin-top: 20px; margin-bottom: -10px;">Frameworks</h3>
+            <div class="row">
+                <div class="col">
+                    <span>React</span>
+                    <div class="cont-bar">
+                        <div class="bar" id="react">
+                            <!-- Javascript porcentaje -->
+                            
+                        </div>
+                        <span>75%</span>
+                    </div>
+                </div>
+                <!--C/C++-->
+                <div class="col">
+                    <span>Django</span>
+                    <div class="cont-bar">
+                        <div class="bar" id="django">
+                            <!-- Javascript porcentaje -->
+                            
+                        </div>
+                        <span>50%</span>
+                    </div>
+                </div>
+            </div>
+
+            <h3 style="margin-top: 20px; margin-bottom: -10px;">Languages</h3>
+            <!--English-->
+            <div class="row">
+                <div class="col">
+                    <span>English</span>
+                    <div class="cont-bar">
+                        <div class="bar" id="english">
+                            <!-- Javascript porcentaje -->
+                            
+                        </div>
+                        <span>65%</span>
+                    </div>
+                </div>
+                <!--Spanish-->
+                <div class="col">
+                    <span>Spanish</span>
+                    <div class="cont-bar">
+                        <div class="bar" id="spanish">
+                            <!-- Javascript porcentaje -->
+                            
+                        </div>
+                        <span>85%</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <span>Japanese</span>
+                    <div class="cont-bar">
+                        <div class="bar" id="japanese">
+                            <!-- Javascript porcentaje -->
+                            
+                        </div>
+                        <span>25%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Background School -->
+    <section class="resume" id="resume">
+        <div class="content-resume">
+            <h2 class="title-resume">Background</h2>
+            <h3>School and Work Background</h3>
+            <div class="info">
+                <div class="col">
+                    <span class="title">Education</span>
+                    <table>
+                        <tr>
+                            <td class="data">
+                                <h3>2016 - 2019</h3>
+                            </td>
+                            <td rowspan="2" class="description">
+                                During my time in bachelor I learned different things but 
+                                I was focused on graphic design.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>Bachelor's degree</h4>
+                                <p>Preparatoria No.12</p>
+                                <span class="average">95.88</span>
+                            </td>
+                        </tr>
+                    </table>
+
+                    <table>
+                        <tr>
+                            <td class="data">
+                                <h3>2020 - 2024</h3>
+                            </td>
+                            <td rowspan="2" class="description">
+                                In my university career I learned a lot about the computer area; networks, 
+                                programming, AI, OS, databases and I even made a game.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>Engineer Computer</h4>
+                                <p>Centro de Ciencias Exactas e Ingerierias</p>
+                                <span class="average">95.09</span>
+                            </td>
+                        </tr>
+                    </table>
+
+                    <table>
+                        <tr>
+                            <td class="data">
+                                <h3>2023 - 2024</h3>
+                            </td>
+                            <td rowspan="2" class="description">
+                                IBM gave me the opportunity to take several courses of which 
+                                I have done in different areas, recently I have some of programming and 
+                                soon I will get one of cybersecurity.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>Programming</h4>
+                                <p>Udemy courses</p>
+                            </td>
+                        </tr>
+                    </table>
+
+                    <!-- ABAP -->
+                    <div class="row">
+                        <div class="col">
+                            <div class="certificate">
+                                <img src="img/Certificado ABAP.jpg" alt="Certificado ABAP">
+                            </div>
+                        </div>
+                        <!--DevOps-->
+                        <div class="col">
+                            <div class="certificate">
+                                <img src="img/Certificado DevOps.jpg" alt="Certificado DevOps">
+                            </div>
+                        </div>
+                    </div>
+                    <!--JavaScript-->
+                    <div class="row">
+                        <div class="col">
+                            <div class="certificate">
+                                <img src="img/Certificado JavaScript.jpg" alt="Certificado JavaScript">
+                            </div>
+                        </div>
+                        <!--React-->
+                        <div class="col">
+                            <div class="certificate">
+                                <img src="img/Certificado React.jpg" alt="Certificado React">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <span class="title">Experience job</span>
+                    <table>
+                        <tr>
+                            <td class="data">
+                                <h3>7 months</h3>
+                            </td>
+                            <td rowspan="2" class="description">
+                                In my stay as an internship at IBM I have learned about the area in which I am which is finance, 
+                                I am currently a business analyst and I have experience with the SAP system, 
+                                I have also learned methodologies such as agile and scrum.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>IBM</h4>
+                                <p>Business Analyst</p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="col">
+                    <span class="title">Background in Projects</span>
+                    <table>
+                        <tr>
+                            <td class="data">
+                                <h3>Projects</h3>
+                            </td>
+                            <!--Descripcion del proyecto-->
+                            <td rowspan="2" class="description">
+                                This project is the most complex that I have done, 
+                                it consists of the programming of drones that 
+                                through artificial intelligence perform a system that prevents 
+                                the loss of signal from the drone and avoid accidents.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>AIC-Drone</h4>
+                                <p>Projects school</p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact me-->
+    <section class="contact" id="contact">
+        <div class="content-contact">
+            <h2 class="title-contact">Contact me</h2>
+            <h3>You can contact me in</h3>
+            <div class="row">
+                <div class="col">
+                    <h2>
+                        <i class="fa-solid fa-phone"></i>
+                    </h2>
+                    <span class="info-contact">+52 3317151404</span>
+                </div>
+                <div class="col">
+                    <h2>
+                        <i class="fa-solid fa-envelope"></i> Email
+                    </h2>
+                    <span class="info-contact">angel.garcia4826@alumnos.udg.mx</span>
+                </div>
+                <div class="col">
+                    <h2>
+                        <i class="fa-brands fa-github"></i> Github
+                    </h2>
+                    <a href="https://github.com/AngelGarcia-12"><span class="info-contact">AngelGarcia-12</span></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+<footer>
+    <div class="sign">
+        <p>Angel Garcia Perez</p>
+    </div>
+</footer>
+</html>
