@@ -82,10 +82,10 @@ const paintSkills = () => {
             paintBar(python, Math.round(limit*0.7), 0, intervalPython);
         }, 100);
         const intervalC = setInterval(() => {
-            paintBar(c, Math.round(limit*0.65), 1, intervalC);
+            paintBar(c, Math.round(limit*0.5), 1, intervalC);
         }, 100);
         const intervalJava = setInterval(() => {
-            paintBar(java, Math.round(limit*0.6), 2, intervalJava);
+            paintBar(java, Math.round(limit*0.4), 2, intervalJava);
         }, 100);
         const intervalJavaScript = setInterval(() => {
             paintBar(javascript, limit/2, 3, intervalJavaScript);
@@ -94,10 +94,10 @@ const paintSkills = () => {
             paintBar(sql, limit/2, 4, intervalSql);
         }, 100);
         const intervalCSharp = setInterval(() => {
-            paintBar(cSharp, Math.round(limit*0.35), 5, intervalCSharp);
+            paintBar(cSharp, Math.round(limit*0.25), 5, intervalCSharp);
         }, 100);
         const intervalHtml = setInterval(() => {
-            paintBar(html, Math.round(limit*0.35), 6, intervalHtml);
+            paintBar(html, Math.round(limit*0.45), 6, intervalHtml);
         }, 100);
         const intervalAbap = setInterval(() => {
             paintBar(abap, Math.round(limit*0.2), 7, intervalAbap);
