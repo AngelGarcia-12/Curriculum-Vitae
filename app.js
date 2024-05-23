@@ -112,7 +112,7 @@ const paintSkills = () => {
             paintBar(english, Math.round(limit*0.65), 10, intervalEnglish);
         }, 100);
         const intervalSpanish = setInterval(() => {
-            paintBar(spanish, Math.round(limit*0.85), 11, intervalSpanish);
+            paintBar(spanish, Math.round(limit*1), 11, intervalSpanish);
         }, 100);
         const intervalJapanese = setInterval(() => {
             paintBar(japanese, Math.round(limit*0.25), 12, intervalJapanese);
